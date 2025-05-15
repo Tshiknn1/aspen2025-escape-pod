@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1198232180" Type="User" Language="SFX" Hash="{EC6300DB-8410-1D15-B744-0A58D3EB1A3B}">
+			<ShortName>EvanTestSoundbank</ShortName>
+			<Path>EvanTestSoundbank.bnk</Path>
+			<Media>
+				<File Id="6128918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>game lost.wav</ShortName>
+					<CachePath>SFX/game lost_69564BBF.wem</CachePath>
+				</File>
+				<File Id="29716036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>leaper_jump_3.wav</ShortName>
+					<CachePath>SFX/leaper_jump_3_35A9B771.wem</CachePath>
+				</File>
+				<File Id="32524087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shielded Skeleton Left Footstep.wav</ShortName>
+					<CachePath>SFX/Shielded Skeleton Left Footstep_35A9B771.wem</CachePath>
+				</File>
+				<File Id="35863944" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swoosh.wav</ShortName>
+					<CachePath>SFX/swoosh_35A9B771.wem</CachePath>
+				</File>
+				<File Id="72517855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FoodBiomeSelect.wav</ShortName>
+					<CachePath>SFX/FoodBiomeSelect_35A9B771.wem</CachePath>
+				</File>
+				<File Id="72664747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DreamForestAmbient.wav</ShortName>
+					<CachePath>SFX/DreamForestAmbient_69564BBF.wem</CachePath>
+				</File>
+				<File Id="92385256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SkeletonFootstepRight.wav</ShortName>
+					<CachePath>SFX/SkeletonFootstepRight_35A9B771.wem</CachePath>
+				</File>
+				<File Id="101063313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Golem Attack Charge-Up.wav</ShortName>
+					<CachePath>SFX/Golem Attack Charge-Up_35A9B771.wem</CachePath>
+				</File>
+				<File Id="104266447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChargerFootstepRight.wav</ShortName>
+					<CachePath>SFX/ChargerFootstepRight_35A9B771.wem</CachePath>
+				</File>
+				<File Id="127098446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LavaBiomeSelect.wav</ShortName>
+					<CachePath>SFX/LavaBiomeSelect_35A9B771.wem</CachePath>
+				</File>
+				<File Id="193118872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DreamForestNightBite.wav</ShortName>
+					<CachePath>SFX/DreamForestNightBite_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="196077149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CardSelect.wav</ShortName>
+					<CachePath>SFX/CardSelect_35A9B771.wem</CachePath>
+				</File>
+				<File Id="196454585" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shielderquickswordstabswinghit.wav</ShortName>
+					<CachePath>SFX/shielderquickswordstabswinghit_35A9B771.wem</CachePath>
+				</File>
+				<File Id="203157227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerFootstepSolidRight.wav</ShortName>
+					<CachePath>SFX/PlayerFootstepSolidRight_35A9B771.wem</CachePath>
+				</File>
+				<File Id="267959341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ButtonSelect.wav</ShortName>
+					<CachePath>SFX/ButtonSelect_35A9B771.wem</CachePath>
+				</File>
+				<File Id="271256691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerLand.wav</ShortName>
+					<CachePath>SFX/PlayerLand_35A9B771.wem</CachePath>
+				</File>
+				<File Id="279842676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Resume.wav</ShortName>
+					<CachePath>SFX/Resume_35A9B771.wem</CachePath>
+				</File>
+				<File Id="284921940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NightBite.wav</ShortName>
+					<CachePath>SFX/NightBite_69564BBF.wem</CachePath>
+				</File>
+				<File Id="291466921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pause.wav</ShortName>
+					<CachePath>SFX/Pause_35A9B771.wem</CachePath>
+				</File>
+				<File Id="296378443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>leaper_jump_1.wav</ShortName>
+					<CachePath>SFX/leaper_jump_1_35A9B771.wem</CachePath>
+				</File>
+				<File Id="322613553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Golem Landing Prone.wav</ShortName>
+					<CachePath>SFX/Golem Landing Prone_35A9B771.wem</CachePath>
+				</File>
+				<File Id="350374130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SkeletonFootstepLeft.wav</ShortName>
+					<CachePath>SFX/SkeletonFootstepLeft_35A9B771.wem</CachePath>
+				</File>
+				<File Id="440275923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChargerFootstepLeft.wav</ShortName>
+					<CachePath>SFX/ChargerFootstepLeft_35A9B771.wem</CachePath>
+				</File>
+				<File Id="444022662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dream_biome_music.wav</ShortName>
+					<CachePath>SFX/Dream_biome_music_69564BBF.wem</CachePath>
+				</File>
+				<File Id="458271427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ButtonHover.wav</ShortName>
+					<CachePath>SFX/ButtonHover_35A9B771.wem</CachePath>
+				</File>
+				<File Id="485038490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerFootstepWaterLeft.wav</ShortName>
+					<CachePath>SFX/PlayerFootstepWaterLeft_818F3B66.wem</CachePath>
+				</File>
+				<File Id="519302079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lava_biome_music.wav</ShortName>
+					<CachePath>SFX/Lava_biome_music_69564BBF.wem</CachePath>
+				</File>
+				<File Id="587497112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChargerHitRight.wav</ShortName>
+					<CachePath>SFX/ChargerHitRight_35A9B771.wem</CachePath>
+				</File>
+				<File Id="607702995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerFootstepWaterRight.wav</ShortName>
+					<CachePath>SFX/PlayerFootstepWaterRight_818F3B66.wem</CachePath>
+				</File>
+				<File Id="629808179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Golem Left Footstep.wav</ShortName>
+					<CachePath>SFX/Golem Left Footstep_35A9B771.wem</CachePath>
+				</File>
+				<File Id="639695427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Golem Attack Landing on the Feet.wav</ShortName>
+					<CachePath>SFX/Golem Attack Landing on the Feet_35A9B771.wem</CachePath>
+				</File>
+				<File Id="666999680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerFootstepSolidLeft.wav</ShortName>
+					<CachePath>SFX/PlayerFootstepSolidLeft_35A9B771.wem</CachePath>
+				</File>
+				<File Id="708950772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Aspect of Rage.wav</ShortName>
+					<CachePath>SFX/Aspect of Rage_35A9B771.wem</CachePath>
+				</File>
+				<File Id="732349458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChargerMissRight.wav</ShortName>
+					<CachePath>SFX/ChargerMissRight_35A9B771.wem</CachePath>
+				</File>
+				<File Id="740420991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shielderquickswordstabswing.wav</ShortName>
+					<CachePath>SFX/shielderquickswordstabswing_35A9B771.wem</CachePath>
+				</File>
+				<File Id="788874886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spinattackbasehit.wav</ShortName>
+					<CachePath>SFX/spinattackbasehit_35A9B771.wem</CachePath>
+				</File>
+				<File Id="793355633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>leaper_jump_2.wav</ShortName>
+					<CachePath>SFX/leaper_jump_2_35A9B771.wem</CachePath>
+				</File>
+				<File Id="814615840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TitleMusic.wav</ShortName>
+					<CachePath>SFX/TitleMusic_69564BBF.wem</CachePath>
+				</File>
+				<File Id="846379177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerJump.wav</ShortName>
+					<CachePath>SFX/PlayerJump_35A9B771.wem</CachePath>
+				</File>
+				<File Id="849657380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EmpowerTokenSelect.wav</ShortName>
+					<CachePath>SFX/EmpowerTokenSelect_35A9B771.wem</CachePath>
+				</File>
+				<File Id="851750572" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WeakenTokenSelect.wav</ShortName>
+					<CachePath>SFX/WeakenTokenSelect_35A9B771.wem</CachePath>
+				</File>
+				<File Id="876387477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Aspect_of_fear.wav</ShortName>
+					<CachePath>SFX/Aspect_of_fear_35A9B771.wem</CachePath>
+				</File>
+				<File Id="900689083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>leaper_miss.wav</ShortName>
+					<CachePath>SFX/leaper_miss_35A9B771.wem</CachePath>
+				</File>
+				<File Id="901888394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geyser idle.wav</ShortName>
+					<CachePath>SFX/geyser idle_545E687D.wem</CachePath>
+				</File>
+				<File Id="939970087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChargerMissLeft.wav</ShortName>
+					<CachePath>SFX/ChargerMissLeft_35A9B771.wem</CachePath>
+				</File>
+				<File Id="954719042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Golem Right Footstep.wav</ShortName>
+					<CachePath>SFX/Golem Right Footstep_35A9B771.wem</CachePath>
+				</File>
+				<File Id="991625347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spinattackswing.wav</ShortName>
+					<CachePath>SFX/spinattackswing_35A9B771.wem</CachePath>
+				</File>
+				<File Id="994848429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc body landing from charger throw.wav</ShortName>
+					<CachePath>SFX/pc body landing from charger throw_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1001554782" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shielded Skeleton Right Footstep.wav</ShortName>
+					<CachePath>SFX/Shielded Skeleton Right Footstep_35A9B771.wem</CachePath>
+				</File>
+				<File Id="1003731978" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerDash.wav</ShortName>
+					<CachePath>SFX/PlayerDash_35A9B771.wem</CachePath>
+				</File>
+				<File Id="1006519674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LavaAmbient.wav</ShortName>
+					<CachePath>SFX/LavaAmbient_69564BBF.wem</CachePath>
+				</File>
+				<File Id="1008118126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>leaper_attack.wav</ShortName>
+					<CachePath>SFX/leaper_attack_35A9B771.wem</CachePath>
+				</File>
+				<File Id="1012147918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MainLoop.wav</ShortName>
+					<CachePath>SFX/MainLoop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1016226889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DreamForestBiomeSelect.wav</ShortName>
+					<CachePath>SFX/DreamForestBiomeSelect_35A9B771.wem</CachePath>
+				</File>
+				<File Id="1032050461" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Food_biome_music.wav</ShortName>
+					<CachePath>SFX/Food_biome_music_69564BBF.wem</CachePath>
+				</File>
+				<File Id="1044931328" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ChargerHitLeft.wav</ShortName>
+					<CachePath>SFX/ChargerHitLeft_35A9B771.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3128074203" Name="CardSelect" DurationType="OneShot" DurationMin="4.4465" DurationMax="4.4465">
+					<MediaRefs>
+						<MediaRef Id="196077149"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2492898533" Name="EmpowerTokenSelect" DurationType="OneShot" DurationMin="1.845125" DurationMax="1.845125">
+					<MediaRefs>
+						<MediaRef Id="849657380"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1517328899" Name="FoodBiomeSelect" DurationType="OneShot" DurationMin="2.0549376" DurationMax="2.0549376">
+					<MediaRefs>
+						<MediaRef Id="72517855"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3092587493" Name="Pause" DurationType="OneShot" DurationMin="6.0081635" DurationMax="6.0081635">
+					<MediaRefs>
+						<MediaRef Id="291466921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="492652091" Name="Play_AspectOfFearSelect" DurationType="OneShot" DurationMin="2.6350567" DurationMax="2.6350567">
+					<MediaRefs>
+						<MediaRef Id="876387477"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1081254850" Name="Play_AspectOfRageSelect" DurationType="OneShot" DurationMin="19.310022" DurationMax="19.310022">
+					<MediaRefs>
+						<MediaRef Id="708950772"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="479606568" Name="Play_ButtonHover" DurationType="OneShot" DurationMin="3.030204" DurationMax="3.030204">
+					<MediaRefs>
+						<MediaRef Id="458271427"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2652178615" Name="Play_ButtonPress" DurationType="OneShot" DurationMin="2.324898" DurationMax="2.324898">
+					<MediaRefs>
+						<MediaRef Id="267959341"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3632326709" Name="Play_ChargerFootstepLeft" MaxAttenuation="70" DurationType="OneShot" DurationMin="1.6149433" DurationMax="1.6149433">
+					<MediaRefs>
+						<MediaRef Id="440275923"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="282746656" Name="Play_ChargerFootstepRight" MaxAttenuation="70" DurationType="OneShot" DurationMin="1.6149433" DurationMax="1.6149433">
+					<MediaRefs>
+						<MediaRef Id="104266447"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2655804996" Name="Play_ChargerHitLeft" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.5465533" DurationMax="1.5465533">
+					<MediaRefs>
+						<MediaRef Id="1044931328"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="520370339" Name="Play_ChargerHitRight" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.5465533" DurationMax="1.5465533">
+					<MediaRefs>
+						<MediaRef Id="587497112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="543040975" Name="Play_ChargerMissLeft" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.3736734" DurationMax="1.3736734">
+					<MediaRefs>
+						<MediaRef Id="939970087"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="166950546" Name="Play_ChargerMissRight" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.3736734" DurationMax="1.3736734">
+					<MediaRefs>
+						<MediaRef Id="732349458"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2070812680" Name="Play_DreamForestBiomeSelect" DurationType="OneShot" DurationMin="8" DurationMax="8">
+					<MediaRefs>
+						<MediaRef Id="1016226889"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1446475553" Name="Play_FollowerFootstepLeft" MaxAttenuation="70" DurationType="OneShot" DurationMin="1.3803629" DurationMax="1.3803629">
+					<MediaRefs>
+						<MediaRef Id="350374130"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1352216468" Name="Play_FollowerFootstepRight" MaxAttenuation="70" DurationType="OneShot" DurationMin="1.3803629" DurationMax="1.3803629">
+					<MediaRefs>
+						<MediaRef Id="92385256"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3006018685" Name="Play_GeyserIdle" MaxAttenuation="70" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="901888394"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="186019198" Name="Play_GolemAttackCharge" MaxAttenuation="70" DurationType="OneShot" DurationMin="2.0469842" DurationMax="2.0469842">
+					<MediaRefs>
+						<MediaRef Id="101063313"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1266269905" Name="Play_GolemAttackLand" MaxAttenuation="70" DurationType="OneShot" DurationMin="2.8827212" DurationMax="2.8827212">
+					<MediaRefs>
+						<MediaRef Id="639695427"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2784539119" Name="Play_GolemFootstepLeft" MaxAttenuation="70" DurationType="OneShot" DurationMin="2.0040135" DurationMax="2.0040135">
+					<MediaRefs>
+						<MediaRef Id="629808179"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2467322162" Name="Play_GolemFootstepRight" MaxAttenuation="70" DurationType="OneShot" DurationMin="2.0040135" DurationMax="2.0040135">
+					<MediaRefs>
+						<MediaRef Id="954719042"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="34687859" Name="Play_GolemLandingProne" MaxAttenuation="70" DurationType="OneShot" DurationMin="2.3438096" DurationMax="2.3438096">
+					<MediaRefs>
+						<MediaRef Id="322613553"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1598644012" Name="Play_LavaBiomeSelect" DurationType="OneShot" DurationMin="1.8333334" DurationMax="1.8333334">
+					<MediaRefs>
+						<MediaRef Id="127098446"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3693645925" Name="Play_LeaperAttack" MaxAttenuation="70" DurationType="OneShot" DurationMin="0.5124375" DurationMax="0.5124375">
+					<MediaRefs>
+						<MediaRef Id="1008118126"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3377078321" Name="Play_LeaperJump" MaxAttenuation="70" DurationType="OneShot" DurationMin="0.8940625" DurationMax="0.8940625">
+					<MediaRefs>
+						<MediaRef Id="29716036"/>
+						<MediaRef Id="296378443"/>
+						<MediaRef Id="793355633"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1839641105" Name="Play_LeaperMiss" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.5124375" DurationMax="0.5124375">
+					<MediaRefs>
+						<MediaRef Id="900689083"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1137756071" Name="Play_PlayerFootstepSolidLeft" DurationType="OneShot" DurationMin="1.6133786" DurationMax="1.6133786">
+					<MediaRefs>
+						<MediaRef Id="666999680"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3902117386" Name="Play_PlayerFootstepSolidRight" DurationType="OneShot" DurationMin="1.6133786" DurationMax="1.6133786">
+					<MediaRefs>
+						<MediaRef Id="203157227"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1308282858" Name="Play_PlayerFootstepWetLeft" DurationType="OneShot" DurationMin="1.7428799" DurationMax="1.7428799">
+					<MediaRefs>
+						<MediaRef Id="485038490"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="301871969" Name="Play_PlayerFootstepWetRight" DurationType="OneShot" DurationMin="1.7428799" DurationMax="1.7428799">
+					<MediaRefs>
+						<MediaRef Id="607702995"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1107055271" Name="Play_PlayerLaunchLand" DurationType="OneShot" DurationMin="2.625" DurationMax="2.625">
+					<MediaRefs>
+						<MediaRef Id="994848429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3366989763" Name="Play_ShielderAttackHit" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.0010834" DurationMax="1.0010834">
+					<MediaRefs>
+						<MediaRef Id="196454585"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3659895982" Name="Play_ShielderAttackSwing" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.68775" DurationMax="0.68775">
+					<MediaRefs>
+						<MediaRef Id="740420991"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2775887801" Name="Play_ShielderFootstepLeft" DurationType="OneShot" DurationMin="2.3803627" DurationMax="2.3803627">
+					<MediaRefs>
+						<MediaRef Id="32524087"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1328167532" Name="Play_ShielderFootstepRight" DurationType="OneShot" DurationMin="2.3803627" DurationMax="2.3803627">
+					<MediaRefs>
+						<MediaRef Id="1001554782"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3321296225" Name="Play_SpinAttackHit" DurationType="OneShot" DurationMin="0.97175" DurationMax="0.97175">
+					<MediaRefs>
+						<MediaRef Id="788874886"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1332444756" Name="Play_SpinAttackSwing" DurationType="OneShot" DurationMin="0.992875" DurationMax="0.992875">
+					<MediaRefs>
+						<MediaRef Id="991625347"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3745406025" Name="Play_TestMusicPlaylist" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1012147918"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3920001302" Name="Play_TopLevelAmbientContainer" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="2280308571"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="813526661"/>
+									<MediaRefs>
+										<MediaRef Id="72664747"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="2280308571"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="540301611"/>
+									<MediaRefs>
+										<MediaRef Id="1006519674"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="2280308571"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="782826392"/>
+									<MediaRefs>
+										<MediaRef Id="72664747"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3458950525" Name="Play_TopLevelMusicContainer" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="2280308571"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="0"/>
+									<MediaRefs>
+										<MediaRef Id="284921940"/>
+										<MediaRef Id="444022662"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="3705726509"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="0"/>
+									<MediaRefs>
+										<MediaRef Id="814615840"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="4158285989"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="0"/>
+									<MediaRefs>
+										<MediaRef Id="6128918"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="2280308571"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="813526661"/>
+									<MediaRefs>
+										<MediaRef Id="284921940"/>
+										<MediaRef Id="444022662"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="2280308571"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="3031504781"/>
+									<MediaRefs>
+										<MediaRef Id="1032050461"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="319258907"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="813526661"/>
+									<MediaRefs>
+										<MediaRef Id="284921940"/>
+										<MediaRef Id="444022662"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="319258907"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="3031504781"/>
+									<MediaRefs>
+										<MediaRef Id="1032050461"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="2280308571"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="540301611"/>
+									<MediaRefs>
+										<MediaRef Id="519302079"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="261089142" Id="319258907"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="835576787" Id="540301611"/>
+									<MediaRefs>
+										<MediaRef Id="519302079"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2525052962" Name="PlayerDash" DurationType="OneShot" DurationMin="1.705034" DurationMax="1.705034">
+					<MediaRefs>
+						<MediaRef Id="1003731978"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008126242" Name="PlayerJump" DurationType="OneShot" DurationMin="1.7039909" DurationMax="1.7039909">
+					<MediaRefs>
+						<MediaRef Id="846379177"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="846198821" Name="PlayerLand" DurationType="OneShot" DurationMin="1.7086622" DurationMax="1.7086622">
+					<MediaRefs>
+						<MediaRef Id="271256691"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="953277036" Name="Resume" DurationType="OneShot" DurationMin="6.0081635" DurationMax="6.0081635">
+					<MediaRefs>
+						<MediaRef Id="279842676"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2633931927" Name="Stop_GeyserIdle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="901888394"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2320038536" Name="Stop_TopLevelAmbientContainer" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="590263643" Name="WeakenTokenSelect" DurationType="OneShot" DurationMin="1.468573" DurationMax="1.468573">
+					<MediaRefs>
+						<MediaRef Id="851750572"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="899748333" Name="WeaponSwing" DurationType="OneShot" DurationMin="0.45278913" DurationMax="0.45278913">
+					<MediaRefs>
+						<MediaRef Id="35863944"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="1953976762" Name="AmbientSoundBus"/>
+				<Bus Id="2319746103" Name="PlayerSFXBus"/>
+				<Bus Id="2550921985" Name="ExternalSFXBus"/>
+				<Bus Id="2886307548" Name="MusicBus"/>
+				<Bus Id="3164795806" Name="UISFXBus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="261089142" Name="GameMode">
+					<States>
+						<State Id="319258907" Name="Paused"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2280308571" Name="ActiveGameplay"/>
+						<State Id="2716678721" Name="Victory"/>
+						<State Id="3705726509" Name="Title"/>
+						<State Id="4158285989" Name="GameOver"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="835576787" Name="Biome">
+					<States>
+						<State Id="540301611" Name="Lava"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
+						<State Id="813526661" Name="DreamForest"/>
+						<State Id="3031504781" Name="Food"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1548586727" Name="MenuState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1858159279" Name="OutsideMenu"/>
+						<State Id="3374585465" Name="InMenu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7EF200F5-CE03-1432-70D9-EF69990F5C26}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1953976762" Name="AmbientSoundBus"/>
+				<Bus Id="2319746103" Name="PlayerSFXBus"/>
+				<Bus Id="2550921985" Name="ExternalSFXBus"/>
+				<Bus Id="2886307548" Name="MusicBus"/>
+				<Bus Id="3164795806" Name="UISFXBus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="261089142" Name="GameMode">
+					<States>
+						<State Id="319258907" Name="Paused"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2280308571" Name="ActiveGameplay"/>
+						<State Id="2716678721" Name="Victory"/>
+						<State Id="3705726509" Name="Title"/>
+						<State Id="4158285989" Name="GameOver"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="835576787" Name="Biome">
+					<States>
+						<State Id="540301611" Name="Lava"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
+						<State Id="813526661" Name="DreamForest"/>
+						<State Id="3031504781" Name="Food"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1548586727" Name="MenuState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1858159279" Name="OutsideMenu"/>
+						<State Id="3374585465" Name="InMenu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{97CA7053-9231-A610-6EF4-732C678E57CD}</FileHash>
+</SoundBanksInfo>

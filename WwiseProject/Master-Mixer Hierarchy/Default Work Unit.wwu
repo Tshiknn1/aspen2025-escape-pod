@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE676510-5630-4B32-A1A9-196898688815}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{CE676510-5630-4B32-A1A9-196898688815}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{8888E88C-4134-4C10-8693-295A79C52741}" WorkUnitID="{6ED3BBC7-FB35-4C34-929D-694432450E18}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MusicBus" ID="{C49592E9-678B-4790-8D76-FBD81617028D}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameMode" ID="{8E58EDB3-12DD-4336-BBA6-1F28E5A160AC}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="MenuState" ID="{AC616963-2072-4C2A-8772-B0A0857931C4}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{EF0FA073-460E-400F-A5E8-C55DCA82E4C2}"/>
+										<CustomState Name="" ID="{8A68259F-E34D-4B9A-B9EE-063C2954804E}" ShortID="111938532">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-10"/>
+												<Property Name="Highpass" Type="int16" Value="19"/>
+												<Property Name="Lowpass" Type="int16" Value="-20"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Victory" ID="{992A06BF-497D-40AF-8F1E-8C339C8417E9}"/>
+										<CustomState Name="" ID="{3BAEC953-2D73-4EB5-AB1C-C08FAD824AE4}" ShortID="308018338"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GameOver" ID="{ECFDAE4B-448F-45E7-B4B2-9BBE989EF889}"/>
+										<CustomState Name="" ID="{B2DADBA2-34FD-47A4-8B91-094E8701EEBA}" ShortID="342191884"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{D2F14156-8BEF-482A-83EB-12EF8D6638D7}"/>
+										<CustomState Name="" ID="{1E8F6831-75DD-4908-A696-AFF7E656EEA0}" ShortID="922735342"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{C7E79D7B-AC69-4A36-BD00-00B88C180A51}"/>
+										<CustomState Name="" ID="{C8AE4EDD-64AC-4DB8-9E3D-B81115819776}" ShortID="912836011"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ActiveGameplay" ID="{82FDA30B-205B-4C35-A0E0-1EA3A9E0EF5F}"/>
+										<CustomState Name="" ID="{16D7D658-C177-404F-87B6-066049504717}" ShortID="613460314"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OutsideMenu" ID="{2168787E-59DE-4DC9-B4C4-805207DAEFF2}"/>
+										<CustomState Name="" ID="{2F54E7EC-4332-4C85-B92F-959F9F7EAC34}" ShortID="226359919"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="AmbientSoundBus" ID="{30204D22-4D95-4C11-8953-A66AC6C49E37}"/>
+						<Bus Name="ExternalSFXBus" ID="{25535620-3527-4281-B493-FF1531B26A4E}"/>
+						<Bus Name="PlayerSFXBus" ID="{7229EA33-A191-4ABC-8DB7-984DCFDB78BA}"/>
+						<Bus Name="UISFXBus" ID="{5346DED7-B36F-4431-8A0D-D2385675245E}"/>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{F07D8047-CD2F-4042-9C48-82C2D5B191A1}" ShortID="293265102">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MasterVolume" ID="{FC6BEC17-4E3E-4CAE-9677-EB1FCB2E01A3}" WorkUnitID="{CABA02E3-D722-4AA9-8CCE-75325A9345B3}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{8610C4D6-C74E-45E4-B965-978F322687D9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0.08818</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

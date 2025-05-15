@@ -1,0 +1,36 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	261089142	GameMode			\Default Work Unit\GameMode	
+	835576787	Biome			\Default Work Unit\Biome	
+	1548586727	MenuState			\Default Work Unit\MenuState	
+
+State	ID	Name	State Group			Notes
+	319258907	Paused	GameMode			
+	748895195	None	GameMode			
+	2280308571	ActiveGameplay	GameMode			
+	2716678721	Victory	GameMode			
+	3705726509	Title	GameMode			
+	4158285989	GameOver	GameMode			
+	540301611	Lava	Biome			
+	748895195	None	Biome			
+	782826392	Default	Biome			
+	813526661	DreamForest	Biome			
+	3031504781	Food	Biome			
+	748895195	None	MenuState			
+	1858159279	OutsideMenu	MenuState			
+	3374585465	InMenu	MenuState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1953976762	AmbientSoundBus			\Default Work Unit\Master Audio Bus\AmbientSoundBus	
+	2319746103	PlayerSFXBus			\Default Work Unit\Master Audio Bus\PlayerSFXBus	
+	2550921985	ExternalSFXBus			\Default Work Unit\Master Audio Bus\ExternalSFXBus	
+	2886307548	MusicBus			\Default Work Unit\Master Audio Bus\MusicBus	
+	3164795806	UISFXBus			\Default Work Unit\Master Audio Bus\UISFXBus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

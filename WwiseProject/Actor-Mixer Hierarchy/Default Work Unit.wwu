@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C76A5A93-D7D0-4921-99A3-AC996292595E}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{C76A5A93-D7D0-4921-99A3-AC996292595E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{7F5119B7-D7E9-48FF-9ECF-3FF9BF86F277}" ShortID="946469629">
+					<ChildrenList>
+						<Sound Name="PlayerFootstepSolidRight" ID="{23138999-6D66-493F-B63D-F93200FE128B}" ShortID="524099692">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerFootstepSolidRight" ID="{E85D87D3-D6D3-4432-9788-C01F06E7C5D7}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerFootstepSolidRight.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="203157227"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerFootstepSolidRight" ID="{E85D87D3-D6D3-4432-9788-C01F06E7C5D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BaseWeaponSwing" ID="{B73573F2-81E8-41EC-9E06-9422458E6825}" ShortID="949945369">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="swoosh" ID="{6853BC28-448C-4D10-A009-80D0BC6B2695}">
+									<Language>SFX</Language>
+									<AudioFile>swoosh.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="35863944"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="swoosh" ID="{6853BC28-448C-4D10-A009-80D0BC6B2695}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerLand" ID="{73A207DA-2AEC-431D-9925-CF4E88FCE920}" ShortID="1055834824">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerLand" ID="{D8F2B6F7-019D-4EBA-9C32-EF21C69510E3}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerLand.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="271256691"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerLand" ID="{D8F2B6F7-019D-4EBA-9C32-EF21C69510E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerFootstepSolidLeft" ID="{18CA0C5A-868D-40F0-BA5F-A7C64CD08C61}" ShortID="905785247">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerFootstepSolidLeft" ID="{D4ED4252-D72F-4406-9B7A-D675B0FD6EEE}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerFootstepSolidLeft.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="666999680"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerFootstepSolidLeft" ID="{D4ED4252-D72F-4406-9B7A-D675B0FD6EEE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerJump" ID="{996AF6D1-781C-43B8-AF0E-E732F8C377A8}" ShortID="5235238">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerJump" ID="{3E5EF7A6-DCE0-4BD9-ABC4-36F565037124}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerJump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="846379177"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerJump" ID="{3E5EF7A6-DCE0-4BD9-ABC4-36F565037124}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerDash" ID="{935353AD-4733-414C-BA67-7D7F36DD4AC4}" ShortID="798610205">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerDash" ID="{A1210F94-7355-47AC-9B98-EAC208BD6902}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerDash.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1003731978"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerDash" ID="{A1210F94-7355-47AC-9B98-EAC208BD6902}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SpinAttackHit" ID="{94C0CACC-31BF-4747-B2A3-78048B8D66D3}" ShortID="961356531">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="spinattackbasehit" ID="{E7B38E58-B833-45E7-8686-5D6C178BE84A}">
+									<Language>SFX</Language>
+									<AudioFile>spinattackbasehit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="788874886"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="spinattackbasehit" ID="{E7B38E58-B833-45E7-8686-5D6C178BE84A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SpinAttackSwing" ID="{362E7ABF-BDF0-4ABF-84DB-8CEC0AD09FFB}" ShortID="672061200">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="spinattackswing" ID="{EF40C0F3-2479-41D8-9C35-BE3E68924B5F}">
+									<Language>SFX</Language>
+									<AudioFile>spinattackswing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="991625347"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="spinattackswing" ID="{EF40C0F3-2479-41D8-9C35-BE3E68924B5F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerFootstepWetLeft" ID="{2E3831B9-324F-4C71-93BC-5940D4F9E362}" ShortID="822611828">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerFootstepWaterLeft" ID="{393CE48A-BF4C-47B7-97E5-BF6CD1C2AC77}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerFootstepWaterLeft.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="485038490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerFootstepWaterLeft" ID="{393CE48A-BF4C-47B7-97E5-BF6CD1C2AC77}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerFootstepWetRight" ID="{D951A502-673A-4D96-93CD-C91C2562A73A}" ShortID="838997146">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerFootstepWaterRight" ID="{533AA7E3-73AC-48C8-BB42-D97234FE1AB2}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerFootstepWaterRight.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="607702995"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerFootstepWaterRight" ID="{533AA7E3-73AC-48C8-BB42-D97234FE1AB2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerLaunchLand" ID="{ACF92DF9-0830-4974-8FC1-D01E084B6765}" ShortID="76780709">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pc body landing from charger throw" ID="{B0A4C951-7C94-4EDC-A17C-D92E9DBCDF56}">
+									<Language>SFX</Language>
+									<AudioFile>pc body landing from charger throw.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994848429"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pc body landing from charger throw" ID="{B0A4C951-7C94-4EDC-A17C-D92E9DBCDF56}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{77E4ED10-424B-471B-A143-AF3C7550A5B2}" ShortID="172755690">
+					<ChildrenList>
+						<Sound Name="CardSelect" ID="{19A94F48-53E0-41E4-9698-13C957607366}" ShortID="1069508801">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CardSelect" ID="{2E92F517-E33E-4550-9F99-40F0523C38B6}">
+									<Language>SFX</Language>
+									<AudioFile>CardSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="196077149"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CardSelect" ID="{2E92F517-E33E-4550-9F99-40F0523C38B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pause" ID="{306F7BB2-5295-4C0E-9B4B-7E77AB02DD91}" ShortID="232268860">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pause" ID="{E4F3B87E-61A6-4217-B874-08D81480C42A}">
+									<Language>SFX</Language>
+									<AudioFile>Pause.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="291466921"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pause" ID="{E4F3B87E-61A6-4217-B874-08D81480C42A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Resume" ID="{E8DD8551-62E4-411F-BB65-BBDBA2988BB5}" ShortID="757374605">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Resume" ID="{16F44569-CF02-459C-900D-EC6CD8AAA2D7}">
+									<Language>SFX</Language>
+									<AudioFile>Resume.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="279842676"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Resume" ID="{16F44569-CF02-459C-900D-EC6CD8AAA2D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ButtonHover" ID="{E740F1C2-C3D8-4968-B4AC-B6AA55F8E635}" ShortID="502264870">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ButtonHover" ID="{3E2A4576-05A3-4A96-A041-8F5058FAE0D7}">
+									<Language>SFX</Language>
+									<AudioFile>ButtonHover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="458271427"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ButtonHover" ID="{3E2A4576-05A3-4A96-A041-8F5058FAE0D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ButtonSelect" ID="{140961DD-39E0-48D7-883D-860487552903}" ShortID="1009849900">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ButtonSelect" ID="{E7322C40-272F-4758-BE94-3F8B479879BB}">
+									<Language>SFX</Language>
+									<AudioFile>ButtonSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="267959341"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ButtonSelect" ID="{E7322C40-272F-4758-BE94-3F8B479879BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FoodBiomeSelect" ID="{A87279E3-7CF7-40F9-84E4-0D9DA3440DB1}" ShortID="965080003">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FoodBiomeSelect" ID="{F88522FD-5CDE-4860-BDDA-0B7A91CABF44}">
+									<Language>SFX</Language>
+									<AudioFile>FoodBiomeSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="72517855"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FoodBiomeSelect" ID="{F88522FD-5CDE-4860-BDDA-0B7A91CABF44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LavaBiomeSelect" ID="{0A57C2FF-1BD1-459D-813B-0A496BF7F2A2}" ShortID="190463074">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LavaBiomeSelect" ID="{136A192C-C5B5-441D-A4EF-0E60A11F6851}">
+									<Language>SFX</Language>
+									<AudioFile>LavaBiomeSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="127098446"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LavaBiomeSelect" ID="{136A192C-C5B5-441D-A4EF-0E60A11F6851}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EmpowerTokenSelect" ID="{4A572C7E-98FC-47D1-8526-E4EE0F385F39}" ShortID="1016788612">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EmpowerTokenSelect" ID="{C14C65FE-B119-4DF1-AD74-E980E6A8A3F1}">
+									<Language>SFX</Language>
+									<AudioFile>EmpowerTokenSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849657380"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EmpowerTokenSelect" ID="{C14C65FE-B119-4DF1-AD74-E980E6A8A3F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WeakenTokenSelect" ID="{42DB42E2-F8EC-473D-9730-FAE98173BF7C}" ShortID="40030806">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WeakenTokenSelect" ID="{753FC01A-27D0-4420-9B8D-EFA9EB00416B}">
+									<Language>SFX</Language>
+									<AudioFile>WeakenTokenSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="851750572"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WeakenTokenSelect" ID="{753FC01A-27D0-4420-9B8D-EFA9EB00416B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DreamForestBiomeSelect" ID="{2BE70CBA-AC33-4DD0-81EB-9B43BE400425}" ShortID="964982578">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DreamForestBiomeSelect" ID="{131664A2-3F58-4488-A8E9-8728D71F7454}">
+									<Language>SFX</Language>
+									<AudioFile>DreamForestBiomeSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1016226889"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DreamForestBiomeSelect" ID="{131664A2-3F58-4488-A8E9-8728D71F7454}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AspectOfRageSelect" ID="{A62B592F-E99B-4C2B-A1E5-D766EB2FEAF7}" ShortID="398628125">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Aspect of Rage" ID="{EFEE14C5-149D-4D99-8649-B23BB698775F}">
+									<Language>SFX</Language>
+									<AudioFile>Aspect of Rage.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="708950772"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Aspect of Rage" ID="{EFEE14C5-149D-4D99-8649-B23BB698775F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AspectOfFearSelect" ID="{D1434C4E-17D3-4F99-A7A0-4EEC304B07B7}" ShortID="648228113">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Aspect_of_fear" ID="{DF50FB9E-F7BD-481F-94CD-86FE0EB5BF7E}">
+									<Language>SFX</Language>
+									<AudioFile>Aspect_of_fear.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="876387477"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Aspect_of_fear" ID="{DF50FB9E-F7BD-481F-94CD-86FE0EB5BF7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Charger" ID="{6E497DDE-98A9-4698-9C3E-C2D425CEDE44}" ShortID="878692069">
+					<ChildrenList>
+						<Sound Name="ChargerHitLeft" ID="{FE0B713D-317A-4B29-9DD2-25594277F90B}" ShortID="375921224">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="HitAttenuation" ID="{0802699F-7DD0-44D4-92E8-9855034D4A06}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChargerHitLeft" ID="{FB75D2DB-B931-4399-8046-622E811A3FA3}">
+									<Language>SFX</Language>
+									<AudioFile>ChargerHitLeft.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1044931328"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ChargerHitLeft" ID="{FB75D2DB-B931-4399-8046-622E811A3FA3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChargerHitRight" ID="{878CADE9-1C64-4F93-977C-6EC8C99F1AB1}" ShortID="322194683">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="HitAttenuation" ID="{0802699F-7DD0-44D4-92E8-9855034D4A06}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChargerHitRight" ID="{96D24266-209B-4AFA-854A-19AB3509601B}">
+									<Language>SFX</Language>
+									<AudioFile>ChargerHitRight.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="587497112"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ChargerHitRight" ID="{96D24266-209B-4AFA-854A-19AB3509601B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChargerMissLeft" ID="{4101472B-99F1-4685-AAE9-08257205DD1F}" ShortID="572858100">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="HitAttenuation" ID="{0802699F-7DD0-44D4-92E8-9855034D4A06}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChargerMissLeft" ID="{42FDE8ED-BBD6-4E5B-9D40-993D8E9E0180}">
+									<Language>SFX</Language>
+									<AudioFile>ChargerMissLeft.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="939970087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ChargerMissLeft" ID="{42FDE8ED-BBD6-4E5B-9D40-993D8E9E0180}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChargerMissRight" ID="{F528391E-572B-4E5D-A4ED-0928009687AD}" ShortID="930196922">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="HitAttenuation" ID="{0802699F-7DD0-44D4-92E8-9855034D4A06}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChargerMissRight" ID="{0F797968-74DD-4A89-92C6-1A9FC611EA4A}">
+									<Language>SFX</Language>
+									<AudioFile>ChargerMissRight.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="732349458"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ChargerMissRight" ID="{0F797968-74DD-4A89-92C6-1A9FC611EA4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChargerFootstepLeft" ID="{3743E0AF-F804-4AAB-AE63-FCF214BDEFE7}" ShortID="123115466">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChargerFootstepLeft" ID="{3E65A3ED-E6F7-47D1-9A69-4A298ACE7286}">
+									<Language>SFX</Language>
+									<AudioFile>ChargerFootstepLeft.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="440275923"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ChargerFootstepLeft" ID="{3E65A3ED-E6F7-47D1-9A69-4A298ACE7286}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ChargerFootstepRight" ID="{EACA2C77-F6EB-436C-B1EC-D390AE1AF3C9}" ShortID="15613758">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ChargerFootstepRight" ID="{ABD36232-ED7D-4F86-BC30-F1A4A0AD8403}">
+									<Language>SFX</Language>
+									<AudioFile>ChargerFootstepRight.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="104266447"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ChargerFootstepRight" ID="{ABD36232-ED7D-4F86-BC30-F1A4A0AD8403}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Shielder" ID="{34E119FA-7101-412A-AF1C-3F6865B08066}" ShortID="990311206">
+					<ChildrenList>
+						<Sound Name="ShielderFootstepLeft" ID="{CA7B4A2A-84B3-4995-AFC2-04423FA8B07A}" ShortID="751005724">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shielded Skeleton Left Footstep" ID="{063C7BDA-2305-4D62-84A4-52C8A96D84A9}">
+									<Language>SFX</Language>
+									<AudioFile>Shielded Skeleton Left Footstep.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="32524087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shielded Skeleton Left Footstep" ID="{063C7BDA-2305-4D62-84A4-52C8A96D84A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ShielderFootstepRight" ID="{0AF619BD-9831-4414-B532-8AAAFBC39DD3}" ShortID="433413880">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shielded Skeleton Right Footstep" ID="{ECED8893-FB24-47EC-BD0F-83F3439AA274}">
+									<Language>SFX</Language>
+									<AudioFile>Shielded Skeleton Right Footstep.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1001554782"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shielded Skeleton Right Footstep" ID="{ECED8893-FB24-47EC-BD0F-83F3439AA274}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ShielderAttackSwing" ID="{70E83090-1C1F-44B9-B4B2-8EC7C578B81F}" ShortID="393691063">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="HitAttenuation" ID="{0802699F-7DD0-44D4-92E8-9855034D4A06}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shielderquickswordstabswing" ID="{5236F51B-FAAC-4E7C-B2FE-8A5D913DCAF1}">
+									<Language>SFX</Language>
+									<AudioFile>shielderquickswordstabswing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="740420991"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shielderquickswordstabswing" ID="{5236F51B-FAAC-4E7C-B2FE-8A5D913DCAF1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ShielderAttackHit" ID="{79A72166-E8F5-4353-A108-D04027C21B20}" ShortID="458525338">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="HitAttenuation" ID="{0802699F-7DD0-44D4-92E8-9855034D4A06}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shielderquickswordstabswinghit" ID="{E45D5D79-ECED-4E54-8656-CBE0FB2A2727}">
+									<Language>SFX</Language>
+									<AudioFile>shielderquickswordstabswinghit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="196454585"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shielderquickswordstabswinghit" ID="{E45D5D79-ECED-4E54-8656-CBE0FB2A2727}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environmental" ID="{324587F1-1AED-481C-9C44-CD1FFA845F6E}" ShortID="668670178">
+					<ChildrenList>
+						<Sound Name="GeyserIdle" ID="{7C7685C9-92FB-4AD1-81C8-EC3E55389B44}" ShortID="167324156">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="geyser idle" ID="{11394995-CC1F-4841-9567-B6BA62F7E43B}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="184.211"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.029263370333"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.62663975782039"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>geyser idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="901888394"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="geyser idle" ID="{11394995-CC1F-4841-9567-B6BA62F7E43B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Follower" ID="{DA814DAD-00F9-481A-A38C-9A585EEBB5CC}" ShortID="72464213">
+					<ChildrenList>
+						<Sound Name="FollowerFootstepLeft" ID="{45D5CC92-34A2-41AD-A464-0DEAF07AB57E}" ShortID="22693087">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SkeletonFootstepLeft" ID="{C81D0350-E2C7-4E86-8DF6-17E7D0466ABA}">
+									<Language>SFX</Language>
+									<AudioFile>SkeletonFootstepLeft.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350374130"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SkeletonFootstepLeft" ID="{C81D0350-E2C7-4E86-8DF6-17E7D0466ABA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FollowerFootstepRight" ID="{EE6CEA2E-D091-49D4-916D-D0F5C910F276}" ShortID="257059601">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SkeletonFootstepRight" ID="{571B349A-D594-4D37-AC6C-71F6C3403229}">
+									<Language>SFX</Language>
+									<AudioFile>SkeletonFootstepRight.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="92385256"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SkeletonFootstepRight" ID="{571B349A-D594-4D37-AC6C-71F6C3403229}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Golem" ID="{3C9183E7-E57D-4A1D-9A79-F4F86BE13C90}" ShortID="96707356">
+					<ChildrenList>
+						<Sound Name="GolemAttackCharge" ID="{029BFA54-5AD8-4929-A5FE-3E0A7847A6F2}" ShortID="536615416">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Golem Attack Charge-Up" ID="{1B594B07-078E-46CB-84F5-827AB93F77B6}">
+									<Language>SFX</Language>
+									<AudioFile>Golem Attack Charge-Up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="101063313"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Golem Attack Charge-Up" ID="{1B594B07-078E-46CB-84F5-827AB93F77B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GolemAttackLand" ID="{1AF2CB8A-6FD3-4535-B855-8A22F2F7D486}" ShortID="303843337">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Golem Attack Landing on the Feet" ID="{DF0E8393-3C3E-4D25-8819-F34781A61B5A}">
+									<Language>SFX</Language>
+									<AudioFile>Golem Attack Landing on the Feet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="639695427"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Golem Attack Landing on the Feet" ID="{DF0E8393-3C3E-4D25-8819-F34781A61B5A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GolemLandingProne" ID="{FD0588D2-5B52-4EBB-9162-C8E2D1F0C844}" ShortID="408647460">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Golem Landing Prone" ID="{527861E6-24E8-465E-BC04-C38E19938548}">
+									<Language>SFX</Language>
+									<AudioFile>Golem Landing Prone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="322613553"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Golem Landing Prone" ID="{527861E6-24E8-465E-BC04-C38E19938548}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GolemFootstepLeft" ID="{7FA5FBC6-72A9-4AE3-AFD9-048EA28647FF}" ShortID="345252131">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Golem Left Footstep" ID="{85F17E37-2FE1-4665-BF18-5B593F8CB0A6}">
+									<Language>SFX</Language>
+									<AudioFile>Golem Left Footstep.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="629808179"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Golem Left Footstep" ID="{85F17E37-2FE1-4665-BF18-5B593F8CB0A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GolemFootstepRight" ID="{8D5C960E-24DF-47CB-8A5C-846B34DF2CDE}" ShortID="390158001">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Golem Right Footstep" ID="{FBE9F1C2-62D8-4E6B-9B33-9F3E99A1685F}">
+									<Language>SFX</Language>
+									<AudioFile>Golem Right Footstep.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="954719042"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Golem Right Footstep" ID="{FBE9F1C2-62D8-4E6B-9B33-9F3E99A1685F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Leaper" ID="{6F6C9A05-8F12-4EC6-A174-912ABF121035}" ShortID="48999505">
+					<ChildrenList>
+						<Sound Name="LeaperAttack" ID="{3EFBC154-0BEE-44E2-BE4F-2908F5AE82BB}" ShortID="656483101">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="leaper_attack" ID="{3AB9774C-85F2-4E7B-8D2E-40EE4D3A7B9F}">
+									<Language>SFX</Language>
+									<AudioFile>leaper_attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1008118126"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="leaper_attack" ID="{3AB9774C-85F2-4E7B-8D2E-40EE4D3A7B9F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LeaperMiss" ID="{65A1EB3F-850A-4698-ADFE-C41356340CF6}" ShortID="331369502">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="HitAttenuation" ID="{0802699F-7DD0-44D4-92E8-9855034D4A06}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="leaper_miss" ID="{1EFFDE1F-0FED-4345-86AD-5BBCBE10FD79}">
+									<Language>SFX</Language>
+									<AudioFile>leaper_miss.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="900689083"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="leaper_miss" ID="{1EFFDE1F-0FED-4345-86AD-5BBCBE10FD79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="LeaperJump" ID="{5EB9AB0C-3FAA-4C3D-8CCC-5AFB53ED5984}" ShortID="784193322">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LeaperJump3" ID="{16A1D1DC-F36B-4B25-91F9-180EEEE5DB60}" ShortID="585580918">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="leaper_jump_3" ID="{D172136D-1D62-4D87-B5E9-DB4E2AE9C423}">
+											<Language>SFX</Language>
+											<AudioFile>leaper_jump_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="29716036"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="leaper_jump_3" ID="{D172136D-1D62-4D87-B5E9-DB4E2AE9C423}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeaperJump2" ID="{D76C4D27-4B77-471B-B4A4-D2E411D9B20E}" ShortID="623689720">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="leaper_jump_2" ID="{C0F276CE-B62C-4496-89DA-E66B490FF148}">
+											<Language>SFX</Language>
+											<AudioFile>leaper_jump_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793355633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="leaper_jump_2" ID="{C0F276CE-B62C-4496-89DA-E66B490FF148}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeaperJump1" ID="{770A1CAE-B16B-43E9-B81F-91D5BEE820EA}" ShortID="430971889">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="EnemyAttenuation" ID="{FDE3A0E8-EAF1-4000-8D56-57DB4FA08732}" WorkUnitID="{2AE3E345-E9F5-4057-A114-21633B22BAFF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA80B146-CE09-4E3D-BB93-2114E21753EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CE676510-5630-4B32-A1A9-196898688815}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="leaper_jump_1" ID="{2F91A2BD-612D-49BD-A96E-0EB10084F9DD}">
+											<Language>SFX</Language>
+											<AudioFile>leaper_jump_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296378443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="leaper_jump_1" ID="{2F91A2BD-612D-49BD-A96E-0EB10084F9DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,141 @@
+Event	ID	Name			Wwise Object Path	Notes
+	34687859	Play_GolemLandingProne			\Default Work Unit\Golem\Play_GolemLandingProne	
+	166950546	Play_ChargerMissRight			\Default Work Unit\Charger\Play_ChargerMissRight	
+	186019198	Play_GolemAttackCharge			\Default Work Unit\Golem\Play_GolemAttackCharge	
+	282746656	Play_ChargerFootstepRight			\Default Work Unit\Charger\Play_ChargerFootstepRight	
+	301871969	Play_PlayerFootstepWetRight			\Default Work Unit\Player\Footsteps\Play_PlayerFootstepWetRight	
+	479606568	Play_ButtonHover			\Default Work Unit\UI\Play_ButtonHover	
+	492652091	Play_AspectOfFearSelect			\Default Work Unit\UI\Play_AspectOfFearSelect	
+	520370339	Play_ChargerHitRight			\Default Work Unit\Charger\Play_ChargerHitRight	
+	543040975	Play_ChargerMissLeft			\Default Work Unit\Charger\Play_ChargerMissLeft	
+	590263643	WeakenTokenSelect			\Default Work Unit\UI\WeakenTokenSelect	
+	846198821	PlayerLand			\Default Work Unit\Player\PlayerLand	
+	899748333	WeaponSwing			\Default Work Unit\Player\WeaponSwing	
+	953277036	Resume			\Default Work Unit\UI\Resume	
+	1081254850	Play_AspectOfRageSelect			\Default Work Unit\UI\Play_AspectOfRageSelect	
+	1107055271	Play_PlayerLaunchLand			\Default Work Unit\Player\Play_PlayerLaunchLand	
+	1137756071	Play_PlayerFootstepSolidLeft			\Default Work Unit\Player\Footsteps\Play_PlayerFootstepSolidLeft	
+	1266269905	Play_GolemAttackLand			\Default Work Unit\Golem\Play_GolemAttackLand	
+	1308282858	Play_PlayerFootstepWetLeft			\Default Work Unit\Player\Footsteps\Play_PlayerFootstepWetLeft	
+	1328167532	Play_ShielderFootstepRight			\Default Work Unit\Shielder\Play_ShielderFootstepRight	
+	1332444756	Play_SpinAttackSwing			\Default Work Unit\Player\Play_SpinAttackSwing	
+	1352216468	Play_FollowerFootstepRight			\Default Work Unit\Follower\Play_FollowerFootstepRight	
+	1446475553	Play_FollowerFootstepLeft			\Default Work Unit\Follower\Play_FollowerFootstepLeft	
+	1517328899	FoodBiomeSelect			\Default Work Unit\UI\FoodBiomeSelect	
+	1598644012	Play_LavaBiomeSelect			\Default Work Unit\UI\Play_LavaBiomeSelect	
+	1839641105	Play_LeaperMiss			\Default Work Unit\Leaper\Play_LeaperMiss	
+	2070812680	Play_DreamForestBiomeSelect			\Default Work Unit\UI\Play_DreamForestBiomeSelect	
+	2320038536	Stop_TopLevelAmbientContainer			\Default Work Unit\Stop_TopLevelAmbientContainer	
+	2467322162	Play_GolemFootstepRight			\Default Work Unit\Golem\Play_GolemFootstepRight	
+	2492898533	EmpowerTokenSelect			\Default Work Unit\UI\EmpowerTokenSelect	
+	2525052962	PlayerDash			\Default Work Unit\Player\PlayerDash	
+	2633931927	Stop_GeyserIdle			\Default Work Unit\Environment\Stop_GeyserIdle	
+	2652178615	Play_ButtonPress			\Default Work Unit\UI\Play_ButtonPress	
+	2655804996	Play_ChargerHitLeft			\Default Work Unit\Charger\Play_ChargerHitLeft	
+	2775887801	Play_ShielderFootstepLeft			\Default Work Unit\Shielder\Play_ShielderFootstepLeft	
+	2784539119	Play_GolemFootstepLeft			\Default Work Unit\Golem\Play_GolemFootstepLeft	
+	3006018685	Play_GeyserIdle			\Default Work Unit\Environment\Play_GeyserIdle	
+	3092587493	Pause			\Default Work Unit\UI\Pause	
+	3128074203	CardSelect			\Default Work Unit\UI\CardSelect	
+	3321296225	Play_SpinAttackHit			\Default Work Unit\Player\Play_SpinAttackHit	
+	3366989763	Play_ShielderAttackHit			\Default Work Unit\Shielder\Play_ShielderAttackHit	
+	3377078321	Play_LeaperJump			\Default Work Unit\Leaper\Play_LeaperJump	
+	3458950525	Play_TopLevelMusicContainer			\Default Work Unit\Play_TopLevelMusicContainer	
+	3632326709	Play_ChargerFootstepLeft			\Default Work Unit\Charger\Play_ChargerFootstepLeft	
+	3659895982	Play_ShielderAttackSwing			\Default Work Unit\Shielder\Play_ShielderAttackSwing	
+	3693645925	Play_LeaperAttack			\Default Work Unit\Leaper\Play_LeaperAttack	
+	3745406025	Play_TestMusicPlaylist			\Default Work Unit\Play_TestMusicPlaylist	
+	3902117386	Play_PlayerFootstepSolidRight			\Default Work Unit\Player\Footsteps\Play_PlayerFootstepSolidRight	
+	3920001302	Play_TopLevelAmbientContainer			\Default Work Unit\Play_TopLevelAmbientContainer	
+	4008126242	PlayerJump			\Default Work Unit\Player\PlayerJump	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	261089142	GameMode			\Default Work Unit\GameMode	
+	835576787	Biome			\Default Work Unit\Biome	
+	1548586727	MenuState			\Default Work Unit\MenuState	
+
+State	ID	Name	State Group			Notes
+	319258907	Paused	GameMode			
+	748895195	None	GameMode			
+	2280308571	ActiveGameplay	GameMode			
+	2716678721	Victory	GameMode			
+	3705726509	Title	GameMode			
+	4158285989	GameOver	GameMode			
+	540301611	Lava	Biome			
+	748895195	None	Biome			
+	782826392	Default	Biome			
+	813526661	DreamForest	Biome			
+	3031504781	Food	Biome			
+	748895195	None	MenuState			
+	1858159279	OutsideMenu	MenuState			
+	3374585465	InMenu	MenuState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1953976762	AmbientSoundBus			\Default Work Unit\Master Audio Bus\AmbientSoundBus	
+	2319746103	PlayerSFXBus			\Default Work Unit\Master Audio Bus\PlayerSFXBus	
+	2550921985	ExternalSFXBus			\Default Work Unit\Master Audio Bus\ExternalSFXBus	
+	2886307548	MusicBus			\Default Work Unit\Master Audio Bus\MusicBus	
+	3164795806	UISFXBus			\Default Work Unit\Master Audio Bus\UISFXBus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6128918	game lost	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\game lost_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelMusicContainer\GameOverPlaylist\GameOver\game lost		4032224
+	29716036	LeaperJump3	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\leaper_jump_3_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaper\LeaperJump\LeaperJump3		171852
+	32524087	ShielderFootstepLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Shielded Skeleton Left Footstep_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shielder\ShielderFootstepLeft		420008
+	35863944	BaseWeaponSwing	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\swoosh_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\BaseWeaponSwing		79984
+	72517855	FoodBiomeSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\FoodBiomeSelect_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FoodBiomeSelect		394660
+	72664747	DreamForestAmbient	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\DreamForestAmbient_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelAmbientContainer\DreamForestAmbientPlaylist\DreamForestAmbient\DreamForestAmbient		10586252
+	92385256	FollowerFootstepRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\SkeletonFootstepRight_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Follower\FollowerFootstepRight		243608
+	101063313	GolemAttackCharge	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Golem Attack Charge-Up_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem\GolemAttackCharge		361200
+	104266447	ChargerFootstepRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ChargerFootstepRight_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charger\ChargerFootstepRight		284988
+	127098446	LavaBiomeSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\LavaBiomeSelect_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LavaBiomeSelect		352192
+	193118872	DreamForestNightBite	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\DreamForestNightBite_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\DreamForestNightBite\DreamForestNightBite		3480160
+	196077149	CardSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\CardSelect_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\CardSelect		853840
+	196454585	ShielderAttackHit	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\shielderquickswordstabswinghit_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shielder\ShielderAttackHit		192320
+	203157227	PlayerFootstepSolidRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\PlayerFootstepSolidRight_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootstepSolidRight		284712
+	267959341	ButtonSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ButtonSelect_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ButtonSelect		410224
+	271256691	PlayerLand	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\PlayerLand_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerLand		301520
+	279842676	Resume	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Resume_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Resume		1059952
+	284921940	NightBite	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\NightBite_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelMusicContainer\DreamForestMusicPlaylist\NightBite\NightBite		24822496
+	291466921	Pause	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Pause_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Pause		1059952
+	296378443	LeaperJump1	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\leaper_jump_1_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaper\LeaperJump\LeaperJump1		171852
+	322613553	GolemLandingProne	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Golem Landing Prone_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem\GolemLandingProne		413560
+	350374130	FollowerFootstepLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\SkeletonFootstepLeft_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Follower\FollowerFootstepLeft		243608
+	440275923	ChargerFootstepLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ChargerFootstepLeft_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charger\ChargerFootstepLeft		284988
+	444022662	DreamForestMusic	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Dream_biome_music_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelMusicContainer\DreamForestMusicPlaylist\DreamForestMusic\DreamForestMusic		27690280
+	458271427	ButtonHover	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ButtonHover_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ButtonHover		534640
+	485038490	PlayerFootstepWetLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\PlayerFootstepWaterLeft_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootstepWetLeft		307540
+	519302079	LavaMusic	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Lava_biome_music_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelMusicContainer\LavaMusicPlaylist\LavaMusic\LavaMusic		30247644
+	587497112	ChargerHitRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ChargerHitRight_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charger\ChargerHitRight		272924
+	607702995	PlayerFootstepWetRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\PlayerFootstepWaterRight_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootstepWetRight		307540
+	629808179	GolemFootstepLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Golem Left Footstep_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem\GolemFootstepLeft		353620
+	639695427	GolemAttackLand	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Golem Attack Landing on the Feet_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem\GolemAttackLand		508624
+	666999680	PlayerFootstepSolidLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\PlayerFootstepSolidLeft_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootstepSolidLeft		284712
+	708950772	AspectOfRageSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Aspect of Rage_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\AspectOfRageSelect		3406480
+	732349458	ChargerMissRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ChargerMissRight_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charger\ChargerMissRight		242428
+	740420991	ShielderAttackSwing	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\shielderquickswordstabswing_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shielder\ShielderAttackSwing		132160
+	788874886	SpinAttackHit	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\spinattackbasehit_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\SpinAttackHit		186688
+	793355633	LeaperJump2	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\leaper_jump_2_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaper\LeaperJump\LeaperJump2		171852
+	814615840	TitleMusic	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\TitleMusic_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelMusicContainer\TitleMusicPlaylist\TitleMusic\TitleMusic		17280192
+	846379177	PlayerJump	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\PlayerJump_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerJump		300696
+	849657380	EmpowerTokenSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\EmpowerTokenSelect_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\EmpowerTokenSelect		354376
+	851750572	WeakenTokenSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\WeakenTokenSelect_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\WeakenTokenSelect		282076
+	876387477	AspectOfFearSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Aspect_of_fear_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\AspectOfFearSelect		464936
+	900689083	LeaperMiss	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\leaper_miss_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaper\LeaperMiss		98580
+	901888394	GeyserIdle	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\geyser idle_545E687D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmental\GeyserIdle		1920240
+	939970087	ChargerMissLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ChargerMissLeft_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charger\ChargerMissLeft		242428
+	954719042	GolemFootstepRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Golem Right Footstep_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem\GolemFootstepRight		353620
+	991625347	SpinAttackSwing	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\spinattackswing_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\SpinAttackSwing		190744
+	994848429	PlayerLaunchLand	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\pc body landing from charger throw_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerLaunchLand		504160
+	1001554782	ShielderFootstepRight	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Shielded Skeleton Right Footstep_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shielder\ShielderFootstepRight		420008
+	1003731978	PlayerDash	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\PlayerDash_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerDash		300880
+	1006519674	LavaAmbient	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\LavaAmbient_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelAmbientContainer\LavaAmbientPlaylist\LavaAmbient\LavaAmbient		12852436
+	1008118126	LeaperAttack	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\leaper_attack_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaper\LeaperAttack		98580
+	1012147918	TitleTrack	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\MainLoop_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\TestMusicPlaylist\TitleLoop\TitleTrack		16685664
+	1016226889	DreamForestBiomeSelect	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\DreamForestBiomeSelect_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DreamForestBiomeSelect		1536192
+	1032050461	FoodMusic	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\Food_biome_music_69564BBF.wem		\Interactive Music Hierarchy\Default Work Unit\TopLevelMusicContainer\FoodMusicPlaylist\FoodMusic\FoodMusic		27602092
+	1044931328	ChargerHitLeft	C:\Users\Tshiknn\unity-projects\aspen_project\WwiseProject\.cache\Mac\SFX\ChargerHitLeft_35A9B771.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charger\ChargerHitLeft		272924
+
